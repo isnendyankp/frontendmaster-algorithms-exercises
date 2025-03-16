@@ -19,6 +19,14 @@ function nestedAdd(array) {
   //   2. Jika tidak diinisialisasi dengan 0, nilainya akan undefined
   //   3. undefined + angka akan menghasilkan NaN (Not a Number)
   let sum = 0
+
+  // Loop untuk mengiterasi setiap elemen dalam array
+  // - i = 0: mulai dari elemen pertama array
+  // - i < array.length: lanjutkan selama i kurang dari panjang array
+  // - i++: tambah i dengan 1 setiap kali loop
+  for (let i = 0; i < array.length; i++) {
+    
+  }
 }
 
 test.skip("nested arrays addition", () => {
