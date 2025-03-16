@@ -25,7 +25,11 @@ function nestedAdd(array) {
   // - i < array.length: lanjutkan selama i kurang dari panjang array
   // - i++: tambah i dengan 1 setiap kali loop
   for (let i = 0; i < array.length; i++) {
-    
+    // Simpan nilai elemen array ke variabel current
+    // - array[i]: mengambil elemen array pada posisi ke-i
+    // - const: karena nilai tidak akan diubah dalam iterasi ini
+    // - current: akan berisi angka atau array (untuk nested array)
+    const current = array[i];
   }
 }
 
