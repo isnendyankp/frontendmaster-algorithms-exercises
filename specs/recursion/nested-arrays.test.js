@@ -11,6 +11,14 @@
 
 function nestedAdd(array) {
   // write code here
+  
+  // Inisialisasi variabel sum dengan nilai 0
+  // - Variabel ini akan menyimpan total penjumlahan semua angka
+  // - Dimulai dari 0 karena:
+  //   1. Dalam penjumlahan, kita selalu mulai dari 0
+  //   2. Jika tidak diinisialisasi dengan 0, nilainya akan undefined
+  //   3. undefined + angka akan menghasilkan NaN (Not a Number)
+  let sum = 0
 }
 
 test.skip("nested arrays addition", () => {
