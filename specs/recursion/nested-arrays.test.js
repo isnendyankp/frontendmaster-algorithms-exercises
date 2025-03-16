@@ -30,7 +30,17 @@ function nestedAdd(array) {
     // - const: karena nilai tidak akan diubah dalam iterasi ini
     // - current: akan berisi angka atau array (untuk nested array)
     const current = array[i];
+
+    // Jika elemen saat ini adalah array, rekursif ke dalamnya
+    // - Jika tidak, maka elemen saat ini adalah angka, sehingga kita tambahinya ke sum
+    // - Jika elemen saat ini adalah array, maka sum akan diupdate dengan nilai yang dikembalikan dari rekursif
+    if (Array.isArray(current)) {
+      sum += nestedAdd(current);
+    } else {
+      sum += current;
+    }
   }
+  return sum;
 }
 
 test.skip("nested arrays addition", () => {
