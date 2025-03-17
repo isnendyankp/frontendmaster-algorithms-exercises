@@ -10,7 +10,9 @@
   factorial(3) = 6 
 */
 
-function factorial(n) {}
+function factorial(num) {
+  
+}
 
 // unit tests
 // do not modify the below code
