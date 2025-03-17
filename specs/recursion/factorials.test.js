@@ -12,7 +12,7 @@
 
 function factorial(num) {
   if (num < 2) return 1;
-  return num
+  return num * factorial(num - 1);
 }
 
 // unit tests
