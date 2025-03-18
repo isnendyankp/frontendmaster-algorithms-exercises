@@ -8,6 +8,13 @@
 
 const mergeSort = (nums) => {
   // code goes here
+  // base case, return if length 1 or 0
+
+  // break into two smaller arrays
+
+  // call mergesort on left and right
+
+  // return
 };
 
 // unit tests
