@@ -14,7 +14,11 @@ const mergeSort = (nums) => {
 
   // call mergesort on left and right
 
-  // return
+  // return the merge of left and right
+};
+
+const merge = (sortedArray1, sortedArray2) => {
+  // code goes here
 };
 
 // unit tests
