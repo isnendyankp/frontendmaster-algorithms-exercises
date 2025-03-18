@@ -10,7 +10,7 @@ const mergeSort = (nums) => {
   // code goes here
   // base case, return if length 1 or 0
   if (nums.length < 2) {
-    
+    return nums;
   }
 
   // break into two smaller arrays
