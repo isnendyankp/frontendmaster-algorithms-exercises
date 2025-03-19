@@ -14,6 +14,9 @@ const mergeSort = (nums) => {
   }
 
   // break into two smaller arrays
+  const length = nums.length;
+  const middle = Math.floor(length / 2);
+  
 
   // call mergesort on left and right
 
