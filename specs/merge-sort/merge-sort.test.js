@@ -16,7 +16,8 @@ const mergeSort = (nums) => {
   // break into two smaller arrays
   const length = nums.length;
   const middle = Math.floor(length / 2);
-  
+  const left = nums.slice(0, middle);
+  const right = nums.slice(middle);
 
   // call mergesort on left and right
 
