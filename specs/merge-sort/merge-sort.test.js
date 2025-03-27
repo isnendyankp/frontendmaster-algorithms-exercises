@@ -24,6 +24,7 @@ const mergeSort = (nums) => {
   const rightSorted = mergeSort(right);
 
   // return the merge of left and right
+  return merge(leftSorted, rightSorted);
 };
 
 const merge = (sortedArray1, sortedArray2) => {
