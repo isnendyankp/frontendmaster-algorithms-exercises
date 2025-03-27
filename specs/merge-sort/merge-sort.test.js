@@ -20,6 +20,8 @@ const mergeSort = (nums) => {
   const right = nums.slice(middle);
 
   // call mergesort on left and right
+  const leftSorted = mergeSort(left);
+  const rightSorted = mergeSort(right);
 
   // return the merge of left and right
 };
