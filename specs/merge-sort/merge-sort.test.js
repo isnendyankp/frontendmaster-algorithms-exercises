@@ -29,6 +29,14 @@ const mergeSort = (nums) => {
 
 const merge = (left, right) => {
   const results = [];
+
+  // go until one list runs outs
+  while (left.length && right.length) {
+    
+  }
+
+  // either left or right will be empty so you can safely concat both
+  return results.concat(left, right);
 };
 
 // unit tests
