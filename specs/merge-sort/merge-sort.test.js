@@ -28,7 +28,7 @@ const mergeSort = (nums) => {
 };
 
 const merge = (left, right) => {
-  // code goes here
+  const results = [];
 };
 
 // unit tests
