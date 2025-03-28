@@ -32,7 +32,11 @@ const merge = (left, right) => {
 
   // go until one list runs outs
   while (left.length && right.length) {
-    
+    if (left[0] <= right[0]) {
+      
+    } else {
+      
+    }
   }
 
   // either left or right will be empty so you can safely concat both
