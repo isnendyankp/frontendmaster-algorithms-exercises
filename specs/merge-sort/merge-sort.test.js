@@ -33,9 +33,11 @@ const merge = (left, right) => {
   // go until one list runs outs
   while (left.length && right.length) {
     if (left[0] <= right[0]) {
-      
+      // shift removes the first element in an array and returns it
+      // it's like .pop() for the front
+      results.push(left.shift());
     } else {
-      
+      results.push(right.shift());
     }
   }
 
